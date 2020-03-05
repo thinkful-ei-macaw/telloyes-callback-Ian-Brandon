@@ -9,7 +9,7 @@ it('renders without crashing', () => {
     header='header'
     cards={[{ id: 'a', title: 'First card', content: 'lorem ipsum' },
     { id: 'b', title: 'Second card', content: 'lorem ipsum' },
-    { id: 'c', title: 'Third card', content: 'lorem ipsum' },
+    { id: 'k', title: 'Third card', content: 'lorem ipsum' },
     { id: 'd', title: 'Fourth card', content: 'lorem ipsum' },]}
   />, div);
   ReactDOM.unmountComponentAtNode(div);
@@ -21,7 +21,7 @@ it('renders Cards as expected', () => {
       header='header'
       cards={[{ id: 'a', title: 'First card', content: 'lorem ipsum' },
       { id: 'b', title: 'Second card', content: 'lorem ipsum' },
-      { id: 'c', title: 'Third card', content: 'lorem ipsum' },
+      { id: 'k', title: 'Third card', content: 'lorem ipsum' },
       { id: 'd', title: 'Fourth card', content: 'lorem ipsum' },]}
     />)
     .toJSON();

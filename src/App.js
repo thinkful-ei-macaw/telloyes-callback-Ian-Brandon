@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import List from './List'
+import ReactDOM from 'react-dom'
 import './App.css';
 
 class App extends Component {
